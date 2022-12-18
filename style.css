@@ -1,0 +1,80 @@
+:root{
+  --cor-primaria: #b9ffca;
+  --cor-secundaria: #79fd98;
+  --cor-tercearia: #38fb66;
+}
+
+.dark-green{
+  background-color: #1B613B;
+}
+
+.greensection{
+  background-color: var(--cor-secundaria);
+}
+.white-title{
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+.white-text{
+  color: white !important;
+}
+
+
+.secondary-section{
+  background-color: var(--cor-secundaria);
+}
+.green-title{
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--cor-secundaria);
+}
+
+
+.foto-perfil{
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.icons{
+  padding-left: 5px;
+}
+
+
+.jumbotron{
+  margin-bottom: 0px;
+}
+
+p{
+  font-family:Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+img{
+  width: auto;
+  height: 200px;
+}
+
+
+#sobre, #habilidades{
+  padding: 60px;
+}
+
+#contato{
+  padding: 20px;
+}
+
+.footer-text{
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
